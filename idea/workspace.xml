@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6c8c28b5-12e9-4da3-bffa-2cbfb66ee373" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2owmIHild750ixdYkoWexu9HKpl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Database Script.console.sql.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/MySQL/mysql-connector-j-9.1.0/mysql-connector-j-9.1.0/mysql-connector-j-9.1.0.jar&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.43422264&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ],
+    &quot;RunConfigurationTargetLRU&quot;: [
+      &quot;46ebf9fc-dc96-41b3-9518-6d513871ab41&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JavaFX Projects\Allah_Rohom_Koro\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="console.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
+      <script-file value="$APPLICATION_CONFIG_DIR$/consoles/db/46ebf9fc-dc96-41b3-9518-6d513871ab41/console.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="46ebf9fc-dc96-41b3-9518-6d513871ab41" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6c8c28b5-12e9-4da3-bffa-2cbfb66ee373" name="Changes" comment="" />
+      <created>1731788936792</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731788936792</updated>
+      <workItem from="1731788937837" duration="544000" />
+      <workItem from="1731817984906" duration="14473000" />
+      <workItem from="1731854405075" duration="1480000" />
+      <workItem from="1731859990896" duration="3766000" />
+      <workItem from="1731868791778" duration="4486000" />
+      <workItem from="1731918737828" duration="112000" />
+      <workItem from="1731921302978" duration="320000" />
+      <workItem from="1731932301937" duration="20018000" />
+      <workItem from="1732517831077" duration="1948000" />
+      <workItem from="1732538640472" duration="6505000" />
+      <workItem from="1732862110252" duration="9000000" />
+      <workItem from="1732878070065" duration="14892000" />
+      <workItem from="1733042718089" duration="1064000" />
+      <workItem from="1733047914564" duration="80000" />
+      <workItem from="1733231500066" duration="2165000" />
+      <workItem from="1733243319300" duration="12371000" />
+      <workItem from="1733327507946" duration="756000" />
+      <workItem from="1733328280360" duration="3479000" />
+      <workItem from="1733331791670" duration="4327000" />
+      <workItem from="1733386069246" duration="54286000" />
+      <workItem from="1733571969143" duration="2110000" />
+      <workItem from="1733636111930" duration="77000" />
+      <workItem from="1733643182816" duration="5236000" />
+      <workItem from="1733679957145" duration="5564000" />
+      <workItem from="1733688213902" duration="41000" />
+      <workItem from="1733722921949" duration="2124000" />
+      <workItem from="1733728959918" duration="1763000" />
+      <workItem from="1733735763744" duration="43000" />
+      <workItem from="1733760105859" duration="11228000" />
+      <workItem from="1733805577485" duration="2620000" />
+      <workItem from="1733829470746" duration="11547000" />
+      <workItem from="1733845606901" duration="10445000" />
+      <workItem from="1733859898177" duration="379000" />
+      <workItem from="1733882702582" duration="3895000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
