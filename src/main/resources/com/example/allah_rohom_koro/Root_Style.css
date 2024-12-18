@@ -1,0 +1,12 @@
+.anchor-pane {
+    -fx-background-color: #292A2D; /* Darker container background */
+    -fx-border-radius: 12px;
+    -fx-background-radius: 25px;
+    /*-fx-padding: 20px;*/
+    /* No shadow by default */
+}
+
+.anchor-pane:hover {
+    /* Slightly lighter on hover */
+    -fx-effect: dropshadow(gaussian, rgba(255, 255, 255, 0.16), 12, 0, 4, 4); /* Light shadow on hover */
+}

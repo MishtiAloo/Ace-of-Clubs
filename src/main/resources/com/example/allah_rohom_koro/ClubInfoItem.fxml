@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="950.0" styleClass="containerExtendedBorder" stylesheets="@login_style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.allah_rohom_koro.ClubInfoItemController">
+   <children>
+      <Text fx:id="tv_CII_clubName" fill="#a9f76d" layoutX="57.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Club Name" textAlignment="CENTER" wrappingWidth="863.2216148376465">
+         <font>
+            <Font name="System Bold" size="34.0" />
+         </font>
+      </Text>
+      <Text fx:id="tv_CII_clubMotto" fill="WHITE" layoutX="85.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Motto" textAlignment="CENTER" wrappingWidth="818.1427307128906">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="320.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Recruitment ongoing!!" visible="false">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="320.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Program sceduled" visible="false">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="320.0" layoutY="109.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Even ongoing!!" visible="false">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Text>
+      <Text fx:id="tv_CII_clubDetails" fill="WHITE" layoutX="48.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Details" textAlignment="CENTER" wrappingWidth="889.2689094543457">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Text>
+      <AnchorPane layoutX="20.0" layoutY="146.0" prefHeight="334.0" prefWidth="448.0" styleClass="containerColoredBorder" stylesheets="@login_style.css" />
+      <AnchorPane layoutX="500.0" layoutY="147.0" prefHeight="334.0" prefWidth="435.0" styleClass="containerColoredBorder" stylesheets="@login_style.css" />
+      <Text fill="WHITE" layoutX="199.0" layoutY="193.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Members" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="696.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Panels" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="tv_CII_members" fill="WHITE" layoutX="37.0" layoutY="256.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MemberDeatails" wrappingWidth="420.8583106994629">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="tv_CII_panels" fill="WHITE" layoutX="528.0" layoutY="255.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PanelDeatails" wrappingWidth="420.8583106994629">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

@@ -1,0 +1,179 @@
+/* Root Pane Styling - Dark Background */
+.root {
+    -fx-background-color: #1F2021; /* Dark background */
+}
+
+
+.widget {
+    -fx-background-color: #A1F561; /* Light widget color */
+    -fx-text-fill: #1F2021; /* Dark text color */
+    -fx-border-radius: 10px; /* Rounded corners */
+    -fx-background-radius: 10px; /* Matching border radius */
+    -fx-padding: 10 15; /* Padding inside widgets */
+    -fx-font-family: "Segoe UI", Tahoma, sans-serif;
+    -fx-font-size: 14px;
+}
+
+/* Button Styling */
+.button {
+    -fx-background-color: rgb(161, 245, 97); /* Light background */
+    -fx-text-fill: #1F2021; /* Dark text */
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-font-size: 16px;
+    -fx-cursor: hand;
+    -fx-padding: 10 20;
+    /* No shadow by default */
+}
+
+/* Button Hover Effect with Shadow */
+.button:hover {
+    -fx-background-color: #8BE048; /* Slightly darker green on hover */
+    -fx-effect: dropshadow(gaussian, rgba(139, 224, 72, 0.6), 10, 0, 3, 3); /* Light shadow on hover */
+}
+
+/* Button On Click (Pressed) Effect */
+.button:pressed {
+    -fx-background-color: #7CC942; /* Darker shade on click */
+}
+
+/* TextField Styling */
+.text-field {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #559730;
+    -fx-border-radius: 10px;
+    -fx-border-width: 2px;
+    -fx-background-radius: 10px;
+    -fx-text-fill: #1F2021;
+    -fx-prompt-text-fill: #3D3D3D; /* Placeholder text color */
+    -fx-padding: 10 15;
+    /* No shadow by default */
+}
+
+/* TextField Focus Effect */
+.text-field:focused {
+    -fx-border-color: #8BE048; /* Brighter green border on focus */
+    /*-fx-background-color: #C4FFA2; /* Slightly lighter green on focus */
+    -fx-effect: dropshadow(gaussian, rgba(255, 255, 255, 0.3), 10, 0, 3, 3); /* Light shadow on focus */
+}
+
+/* Label Styling */
+.label {
+    -fx-text-fill: #FFFFFF; /* White text on dark background */
+    -fx-font-size: 14px;
+    -fx-font-family: "Segoe UI", Tahoma, sans-serif;
+    -fx-padding: 5px;
+}
+
+/* Rounded Edged Container (e.g., Panel) */
+.container {
+    -fx-background-color: #292A2D; /* Darker container background */
+    -fx-border-radius: 12px;
+    -fx-background-radius: 12px;
+    /*-fx-padding: 20px;*/
+    /* No shadow by default */
+}
+
+.containerExtendedBorder {
+    -fx-background-color: #292A2D; /* Darker container background */
+    -fx-border-radius: 12px;
+    -fx-background-radius: 25px;
+}
+
+.containerColoredBorder {
+    -fx-background-color: #3e3f42; /* Darker container background */
+    -fx-border-radius: 12px;
+    -fx-background-radius: 25px;
+}
+
+/* Container Hover Effect with Shadow */
+.container:hover {
+    /*-fx-background-color: #343636; /* Slightly lighter on hover */
+    -fx-effect: dropshadow(gaussian, rgba(255, 255, 255, 0.16), 12, 0, 4, 4); /* Light shadow on hover */
+}
+
+/* CheckBox Styling */
+.checkbox {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #6EAE47;
+    -fx-border-radius: 10px;
+    -fx-border-width: 2px;
+    -fx-background-radius: 10px;
+    -fx-text-fill: #1F2021;
+    -fx-padding: 10 15;
+    -fx-cursor: hand;
+    /* No shadow by default */
+}
+
+/* Hover effect for CheckBox with Shadow */
+.checkbox:hover {
+    -fx-background-color: #cacaca;
+    -fx-border-color: #6EAE47;
+    -fx-effect: dropshadow(gaussian, rgba(255, 255, 255, 0.3), 10, 0, 3, 3); /* Light shadow on hover */
+}
+
+.combo-box {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #6EAE47;
+    -fx-border-radius: 10px;
+    -fx-border-width: 2px;
+    -fx-background-radius: 10px;
+    -fx-text-fill: #1F2021;
+    -fx-padding: 10 15;
+    -fx-cursor: hand;
+    /* No shadow by default */
+}
+
+/* Hover effect for CheckBox with Shadow */
+.combo-box:hover {
+    -fx-background-color: #cacaca;
+    -fx-border-color: #6EAE47;
+    -fx-effect: dropshadow(gaussian, rgba(255, 255, 255, 0.3), 10, 0, 3, 3); /* Light shadow on hover */
+}
+
+/* Text Styling (TextArea, TextField) */
+.text-area {
+    -fx-underline: false; /* No underline by default */
+    -fx-background-color: #292A2D;
+}
+
+/* TextField Hover Effect with Shadow */
+.text-area:hover, .text:hover {
+    -fx-underline: true; /* Underline when hovered */
+    -fx-underline-color: #00FF00; /* Set the color of the underline */
+}
+
+/* TextField Focus Effect */
+.text-area:focused, .text:focused {
+    -fx-border-color: #8BE048; /* Brighter border on focus */
+    -fx-background-color: #C4FFA2; /* Lighter background on focus */
+    -fx-effect: dropshadow(gaussian, rgba(255, 255, 255, 0.3), 10, 0, 3, 3); /* Light shadow on focus */
+}
+
+/* StackPane (Container) Styling for Image */
+.image-container {
+    -fx-border-color: #8BE048; /* Green border */
+    -fx-border-width: 3px; /* Border width */
+    -fx-border-radius: 20%; /* Rounded corners */
+    -fx-background-radius: 20%; /* Ensures container's background matches border's rounded corners */
+    -fx-padding: 5px; /* Padding between the ImageView and the border */
+    -fx-background-color: transparent; /* Transparent background */
+}
+
+/* Hover effect for StackPane */
+.image-container:hover {
+    -fx-effect: dropshadow(gaussian, rgba(139, 224, 72, 0.6), 15, 0, 5, 5); /* Larger shadow on hover */
+}
+
+.rectangle {
+    -fx-border-color: #000000; /* Black border */
+    -fx-border-width: 2; /* Border thickness */
+    -fx-border-style: solid; /* Solid line */
+    -fx-border-radius: 15; /* Rounded corners with radius 15 */
+    -fx-background-color: #FFFFFF; /* Optional: Background color */
+    -fx-background-radius: 15; /* Ensure the background also has rounded corners */
+}
+
+
+
+

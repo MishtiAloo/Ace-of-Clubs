@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="770.0" prefWidth="1300.0" stylesheets="@login_style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.allah_rohom_koro.HomePageController">
+   <children>
+      <AnchorPane layoutX="16.0" layoutY="175.0" prefHeight="584.0" prefWidth="278.0" styleClass="container" stylesheets="@login_style.css">
+         <children>
+            <ImageView fitHeight="175.0" fitWidth="173.0" layoutX="55.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../AClogo.png" />
+               </image>
+            </ImageView>
+            <Text fill="#a1f561" layoutX="61.0" layoutY="322.0" strokeType="OUTSIDE" strokeWidth="0.0" text="some cool motto" textAlignment="CENTER" wrappingWidth="154.15496444702148">
+               <font>
+                  <Font name="System Bold" size="50.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="13.0" layoutY="87.0" prefHeight="78.0" prefWidth="1272.0" styleClass="container">
+         <children>
+            <Button layoutX="29.0" layoutY="9.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="62.0" />
+            <ImageView fx:id="btn_AHP_sliderInitiate" fitHeight="57.0" fitWidth="57.0" layoutX="32.0" layoutY="10.0" onMouseClicked="#invokeSlider" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../3bars.png" />
+               </image>
+            </ImageView>
+            <Text fill="WHITE" layoutX="305.0" layoutY="48.0" onMouseClicked="#gotoEventPage" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text" text="Events" textAlignment="CENTER" wrappingWidth="102.41671752929676">
+               <font>
+                  <Font name="System Bold" size="29.0" />
+               </font>
+            </Text>
+            <Text fx:id="txt_AHP_clubs" fill="WHITE" layoutX="474.0" layoutY="48.0" onMouseEntered="#setClubsVisible" onMouseExited="#setClubsInvisible" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text" text="Clubs" textAlignment="CENTER" wrappingWidth="102.41671752929676">
+               <font>
+                  <Font name="System Bold" size="29.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="636.0" layoutY="45.0" onMouseClicked="#gotoProgramPage" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text" text="Programs" textAlignment="CENTER" wrappingWidth="146.1500549316405">
+               <font>
+                  <Font name="System Bold" size="29.0" />
+               </font>
+            </Text>
+            <Text fx:id="tv_AHP_recruit" fill="WHITE" layoutX="852.0" layoutY="48.0" onMouseClicked="#gotoRecruitPage" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text" text="Recruitments" textAlignment="CENTER" wrappingWidth="190.949981689453">
+               <font>
+                  <Font name="System Bold" size="29.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <!-- Sliding Drawer initially hidden off-screen (layoutX is negative) -->
+      <AnchorPane fx:id="ancpane_AHP_drawer" layoutX="-336.0" layoutY="169.0" prefHeight="598.0" prefWidth="336.0" styleClass="containerExtendedBorder">
+         <children>
+            <Button fx:id="btn_AHP_myProfile" layoutX="38.0" layoutY="127.0" mnemonicParsing="false" onMouseClicked="#gotoMyProfilePage" prefHeight="81.0" prefWidth="260.0" text="Profile" />
+            <Button layoutX="38.0" layoutY="218.0" mnemonicParsing="false" prefHeight="81.0" prefWidth="260.0" style="-fx-background-color: #FBFF62;" text="Calender" />
+            <Button fx:id="btn_AHP_myClubs" layoutX="39.0" layoutY="309.0" mnemonicParsing="false" onMouseClicked="#gotoMyClubPage" prefHeight="81.0" prefWidth="260.0" style="-fx-background-color: #A9EBF9;" text="My Clubs" />
+            <Button fx:id="btn_AHP_myEvents" layoutX="39.0" layoutY="402.0" mnemonicParsing="false" onMouseClicked="#gotoMyEventsPage" prefHeight="81.0" prefWidth="260.0" style="-fx-background-color: #F2804D;" text="My Events" />
+         </children></AnchorPane>
+      <Text fx:id="tv_AHP_globalusername" fill="WHITE" layoutX="31.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text" text="username" wrappingWidth="155.2167053222655">
+         <font>
+            <Font name="System Bold" size="29.0" />
+         </font>
+      </Text>
+      <ScrollPane layoutX="314.0" layoutY="245.0" prefHeight="514.0" prefWidth="966.0" stylesheets="@ScrollPane_Style.css">
+         <content>
+            <VBox fx:id="Vb_MyItemHolder" prefHeight="643.0" prefWidth="1034.0" spacing="10.0" />
+         </content>
+      </ScrollPane>
+      <Text fx:id="tv_HP_Title" fill="WHITE" layoutX="580.0" layoutY="217.0" onMouseClicked="#gotoEventPage" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text" text="Title" textAlignment="CENTER" wrappingWidth="428.8167724609374">
+         <font>
+            <Font name="System Bold" size="29.0" />
+         </font>
+      </Text>
+      <AnchorPane fx:id="ancpane_AHP_clubs" layoutX="420.0" layoutY="151.0" onMouseEntered="#keepClubsVisible" onMouseExited="#makeClubsInvisible" prefHeight="397.0" prefWidth="230.0" styleClass="containerExtendedBorder" stylesheets="@login_style.css" visible="false">
+         <children>
+            <Text fx:id="culturalClubs" fill="WHITE" layoutX="54.0" layoutY="60.0" onMouseClicked="#gotoClucInfoPage" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text" text="Cultural" textAlignment="CENTER" wrappingWidth="117.35006713867176">
+               <font>
+                  <Font name="System Bold" size="29.0" />
+               </font>
+            </Text>
+            <Text fx:id="sportClubs" fill="WHITE" layoutX="59.0" layoutY="100.0" onMouseClicked="#gotoClucInfoPage" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text" text="Sports" textAlignment="CENTER" wrappingWidth="102.41671752929676">
+               <font>
+                  <Font name="System Bold" size="29.0" />
+               </font>
+            </Text>
+            <Text fx:id="businessClubs" fill="WHITE" layoutX="51.0" layoutY="143.0" onMouseClicked="#gotoClucInfoPage" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text" text="Business" textAlignment="CENTER" wrappingWidth="129.0833740234374">
+               <font>
+                  <Font name="System Bold" size="29.0" />
+               </font>
+            </Text>
+            <Text fx:id="charityClubs" fill="WHITE" layoutX="46.0" layoutY="186.0" onMouseClicked="#gotoClucInfoPage" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text" text="Charity" textAlignment="CENTER" wrappingWidth="129.0833740234374">
+               <font>
+                  <Font name="System Bold" size="29.0" />
+               </font>
+            </Text>
+            <Text fx:id="programmingClubs" fill="WHITE" layoutX="15.0" layoutY="227.0" onMouseClicked="#gotoClucInfoPage" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text" text="Programming" textAlignment="CENTER" wrappingWidth="195.0">
+               <font>
+                  <Font name="System Bold" size="29.0" />
+               </font>
+            </Text>
+            <Text fx:id="roboticsClubs" fill="WHITE" layoutX="13.0" layoutY="271.0" onMouseClicked="#gotoClucInfoPage" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text" text="Robotics" textAlignment="CENTER" wrappingWidth="195.0">
+               <font>
+                  <Font name="System Bold" size="29.0" />
+               </font>
+            </Text>
+            <Text fx:id="otherClubs" fill="WHITE" layoutX="13.0" layoutY="313.0" onMouseClicked="#gotoClucInfoPage" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text" text="Other" textAlignment="CENTER" wrappingWidth="195.0">
+               <font>
+                  <Font name="System Bold" size="29.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
