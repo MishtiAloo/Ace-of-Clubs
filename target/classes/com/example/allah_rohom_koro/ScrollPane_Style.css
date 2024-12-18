@@ -1,0 +1,40 @@
+/* ScrollPane Styling */
+.scroll-pane {
+    -fx-background-color: transparent; /* Transparent background for ScrollPane */
+    -fx-border-color: #292A2D; /* Dark border color */
+    -fx-border-radius: 12px; /* Rounded corners */
+    -fx-background-radius: 12px; /* Matching border radius */
+    -fx-padding: 5px; /* Padding around the ScrollPane */
+    /*-fx-effect: dropshadow(gaussian, rgba(255, 255, 255, 0.1), 8, 0, 3, 3); /* Light shadow on ScrollPane */
+}
+
+/* Remove any effects or styling from the ScrollPane's children */
+.scroll-pane .viewport {
+    -fx-background-color: transparent; /* Transparent background for viewport */
+    /*-fx-effect: none; /* No shadow or effects for the children */
+}
+
+/* Remove any effect for the children inside the viewport */
+.scroll-pane .content {
+    -fx-background-color: transparent; /* Ensure content background is transparent */
+    /*-fx-effect: none; /* No shadow or effect on the content */
+}
+
+/* ScrollBar Styling (Optional) */
+.scroll-pane .scroll-bar {
+    -fx-background-color: transparent; /* Transparent background for scroll bar */
+}
+
+.scroll-pane .scroll-bar .track {
+    -fx-background-color: #292A2D; /* Dark background for the track */
+    -fx-border-radius: 5px; /* Rounded corners for the track */
+}
+
+.scroll-pane .scroll-bar .thumb {
+    -fx-background-color: #A1F561; /* Light color for the thumb */
+    -fx-border-radius: 5px; /* Rounded corners for the thumb */
+}
+
+.scroll-pane .scroll-bar .thumb:hover {
+    -fx-background-color: #8BE048; /* Slightly darker color for the thumb on hover */
+}
